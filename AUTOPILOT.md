@@ -117,3 +117,21 @@ first, every run.**
   `"running"`.
 - Progress is in `AUTOPILOT_LOG.md`, and on the site: the draft translations shelf shows each book from
   its first part on, with how much is done.
+
+## Keep the data ready for charts and a study guide
+
+The owner will later want charts and a study guide made from this library, like the separate
+study-guide repos of the other libraries (etomelk/study-guide-dammasangani). So when parsing:
+
+- **Keep the structure, not just the text.** Keep each heading's level (vibhaṅga, bhājanīya /
+  section, subsection) in the data (`lvl` on `h` blocks; do not strip it), and keep Thiṭṭila's and
+  Ñāṇamoli's own headings word for word.
+- **Write a map of the book**, `data/structure.json`, and add to it in each `text` run: for every
+  vibhaṅga, its sections and subsections with their Pāli titles (from `data/pali.json`), their English
+  titles (Thiṭṭila), and the § range each covers. Each `dispeller` run adds Ñāṇamoli's paragraph range
+  and PTS pages for each vibhaṅga to the same file.
+- **Keep the lists and the Interrogation answers recoverable.** In the Pañhāpucchaka sections each
+  answer names a triplet or couplet of the mātikā and says which aggregates, bases etc. fall under
+  which term. Do not flatten those paragraphs further than the text does; note in the log any table
+  or numbered list that the parser had to join into a paragraph.
+- Nothing extra for the site: these are data files only. They add little to each run.
