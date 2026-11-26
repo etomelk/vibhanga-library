@@ -47,7 +47,7 @@ def span_text(s):
 
 
 def page_lines(page):
-    """the page's lines without the running head and the foot number, as (kind, x0, text, margin page)"""
+    """the page's lines without the running head and the foot number, as (kind, x0, text, margin page, top)"""
     out = []
     for l in page['lines']:
         spans = l['spans']
@@ -71,7 +71,7 @@ def page_lines(page):
         text = ''.join(span_text(s) if not s['sup'] else s['t'].strip().translate(SUP) for s in keep)
         text = re.sub(r'\*\*\s*\*\*', '', text)
         kind = 'h1' if size > 20 else 'h2' if size > 13 else 'h3' if size > 11.5 else 'note' if size < 10 else 'body'
-        out.append([kind, x0, text, margin])
+        out.append([kind, x0, text, margin, l['top']])
     return out
 
 
@@ -82,7 +82,7 @@ def main(src, first=FIRST_TEXT_PAGE, last=LAST_TEXT_PAGE, first_num=1):
         raw += page_lines(p)
     # words written inside a line, with and without a hyphen (for line-end hyphens)
     inline = collections.Counter()
-    for _, _, t, _ in raw:
+    for _, _, t, _, _ in raw:
         for w in re.findall(r"[A-Za-zāīūṭḍṇḷṃṅñ’']+(?:-[A-Za-zāīūṭḍṇḷṃṅñ’']+)+", t[:-1]):
             inline[w.lower()] += 1
             inline[w.lower().replace('-', '')] += 0
@@ -119,7 +119,10 @@ def main(src, first=FIRST_TEXT_PAGE, last=LAST_TEXT_PAGE, first_num=1):
 
     last_h = None
     expect = first_num
-    for kind, x0, text, margin in raw:
+    prev_top = None
+    for kind, x0, text, margin, top in raw:
+        gap = top - prev_top if prev_top is not None else 0
+        prev_top = top
         if margin:
             if '|' in text:
                 text = text.replace(' | ', f' ⟨pg:{margin}⟩ ', 1).replace('|', f'⟨pg:{margin}⟩', 1)
@@ -132,7 +135,9 @@ def main(src, first=FIRST_TEXT_PAGE, last=LAST_TEXT_PAGE, first_num=1):
             flush()
             lvl = int(kind[1])
             if (last_h is not None and blocks and blocks[-1] is last_h and last_h['lvl'] == lvl
-                    and not re.match(r'\d+\.\s', text)):        # a numbered heading starts anew
+                    and not re.match(r'\d+\.\s', text)           # a numbered heading starts anew
+                    and not (last_h['text'].startswith('(Here Ends') and not 0 < gap < 20)):
+                # after a closing "(Here Ends) …", a heading further down (not its wrapped line) starts anew
                 last_h['text'] += ' ' + text                    # a heading over two lines
                 continue
             last_h = dict(type='h', text=text, lvl=lvl)

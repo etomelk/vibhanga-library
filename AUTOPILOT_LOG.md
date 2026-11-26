@@ -2,6 +2,14 @@
 
 Newest first. See AUTOPILOT.md for the rules.
 
+## 2026-11-26 08:04 UTC — text to §354 (Paṭiccasamuppādavibhaṅga)
+
+- §225–354, two new parts (ch8 Suttanta, ch9 Abhidhamma), PDF pp. 279–352; no paragraphs out of order. §1–224 unchanged (diff is additions only).
+- Parser: after a closing "(Here Ends) …" heading, the next heading line starts a new heading unless it is the closing line's own wrap (gap under 20 pt). This splits "(Here Ends) Reciprocity Tetrad" / "Summary" and the two closing lines at the end of the Abhidhamma section; "… Rooted in / Ignorance" stays one line. The `raw` lines now carry their top.
+- data/structure.json: vibhaṅga 6 added (18 headings; "Summary" pairs with Pāli "Mātikā"). Doubtful: the 7th Association Tetrad starts at Thiṭṭila §264, Pāli heading at §265.
+- As in earlier parts, a part's first block is the closing line of the part before ("(Here Ends) Analysis According to the Discourses"); left as it is so earlier output stays the same.
+- No Interrogation section in this vibhaṅga, so no tags. Spot-checked §230, §281 against the Pāli. check_site 0 problems, check_phone 0 failures.
+
 ## 2026-11-26 07:30 UTC — text to §224 (Āyatana-, Dhātu-, Sacca-, Indriyavibhaṅga)
 
 - §154–224, four new parts (ch4–ch7), PDF pp. 91–278; no paragraphs out of order.

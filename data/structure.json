@@ -1,6 +1,6 @@
 {
  "source": "Pāli: data/pali.json; English: Thiṭṭila (data/thittila.json); paras = Vibhaṅga §",
- "through": 224,
+ "through": 354,
  "vibhangas": [
   {
    "pali": "1. Khandhavibhaṅgo",
@@ -366,6 +366,154 @@
        "paras": [
         224,
         224
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "6. Paṭiccasamuppādavibhaṅgo",
+   "english": "6. Analysis of Dependent Origination",
+   "paras": [
+    225,
+    354
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      225,
+      242
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      243,
+      354
+     ],
+     "sections": [
+      {
+       "pali": "1. Paccayacatukkaṃ",
+       "english": "1. Causal Tetrad",
+       "paras": [
+        243,
+        243
+       ]
+      },
+      {
+       "pali": "2. Hetucatukkaṃ",
+       "english": "2. Root Tetrad",
+       "paras": [
+        244,
+        244
+       ]
+      },
+      {
+       "pali": "3. Sampayuttacatukkaṃ",
+       "english": "3. Association Tetrad",
+       "paras": [
+        245,
+        245
+       ]
+      },
+      {
+       "pali": "4. Aññamaññacatukkaṃ",
+       "english": "4. Reciprocity Tetrad",
+       "paras": [
+        246,
+        246
+       ]
+      },
+      {
+       "pali": "Mātikā",
+       "english": "Summary",
+       "paras": [
+        247,
+        247
+       ]
+      },
+      {
+       "pali": "5. Paccayacatukkaṃ",
+       "english": "5. Causal Tetrad",
+       "paras": [
+        248,
+        255
+       ]
+      },
+      {
+       "pali": "6. Hetucatukkaṃ",
+       "english": "6. Root Tetrad",
+       "paras": [
+        256,
+        263
+       ]
+      },
+      {
+       "pali": "7. Sampayuttacatukkaṃ",
+       "english": "7. Association Tetrad",
+       "paras": [
+        264,
+        271
+       ]
+      },
+      {
+       "pali": "8. Aññamaññacatukkaṃ",
+       "english": "8. Reciprocity Tetrad",
+       "paras": [
+        272,
+        279
+       ]
+      },
+      {
+       "pali": "9. Akusalaniddeso",
+       "english": "9. Exposition of Bad States",
+       "paras": [
+        280,
+        291
+       ]
+      },
+      {
+       "pali": "10. Kusalaniddeso",
+       "english": "10. Exposition of Good States",
+       "paras": [
+        292,
+        305
+       ]
+      },
+      {
+       "pali": "11. Abyākataniddeso",
+       "english": "11. Exposition of Neither-Good-Nor-Bad States",
+       "paras": [
+        306,
+        333
+       ]
+      },
+      {
+       "pali": "12. Avijjāmūlakakusalaniddeso",
+       "english": "12. Exposition of Good States Rooted in Ignorance",
+       "paras": [
+        334,
+        342
+       ]
+      },
+      {
+       "pali": "13. Kusalamūlakavipākaniddeso",
+       "english": "13. Exposition of Resultants Having Good Roots",
+       "paras": [
+        343,
+        349
+       ]
+      },
+      {
+       "pali": "14. Akusalamūlakavipākaniddeso",
+       "english": "14. Exposition of Resultants Having Bad Roots",
+       "paras": [
+        350,
+        354
        ]
       }
      ]

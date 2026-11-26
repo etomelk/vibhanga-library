@@ -1,13 +1,7 @@
 {
  "status": "running",
- "lock": "2026-11-26T08:04Z",
+ "lock": "",
  "queue": [
-  {
-   "item": "text",
-   "to_page": 352,
-   "to_para": 354,
-   "what": "Paṭiccasamuppādavibhaṅga"
-  },
   {
    "item": "text",
    "to_page": 424,
