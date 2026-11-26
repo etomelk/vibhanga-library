@@ -131,7 +131,8 @@ def main(src, first=FIRST_TEXT_PAGE, last=LAST_TEXT_PAGE, first_num=1):
             text = text.replace('**', '')
             flush()
             lvl = int(kind[1])
-            if last_h is not None and blocks and blocks[-1] is last_h and last_h['lvl'] == lvl:
+            if (last_h is not None and blocks and blocks[-1] is last_h and last_h['lvl'] == lvl
+                    and not re.match(r'\d+\.\s', text)):        # a numbered heading starts anew
                 last_h['text'] += ' ' + text                    # a heading over two lines
                 continue
             last_h = dict(type='h', text=text, lvl=lvl)
@@ -181,6 +182,10 @@ def parts(blocks):
             continue
         n = b.get('pnum')
         if n is not None and n in starts and (cur is None or cur['_start'] != n):
+            if cur is not None and any(x.get('lvl') == 1 for x in pending):
+                # a new vibhaṅga: the closing lines of the last one stay with it
+                while pending and pending[0].get('lvl') != 1:
+                    cur['blocks'].append(pending.pop(0))
             c = starts[n]
             rng = re.search(r'\(§[^)]*\)$', c['title'])
             split = len([x for x in pali['chapters'] if x['label'] == c['label']]) > 1
@@ -198,8 +203,6 @@ def parts(blocks):
         c.pop('_start')
         for b in c['blocks']:
             b.pop('note_line', None)
-            if b['type'] == 'h':
-                b.pop('lvl', None)
     return chapters
 
 

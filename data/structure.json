@@ -1,0 +1,376 @@
+{
+ "source": "Pāli: data/pali.json; English: Thiṭṭila (data/thittila.json); paras = Vibhaṅga §",
+ "through": 224,
+ "vibhangas": [
+  {
+   "pali": "1. Khandhavibhaṅgo",
+   "english": "1. Analysis of the Aggregates",
+   "paras": [
+    1,
+    153
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      1,
+      31
+     ],
+     "sections": [
+      {
+       "pali": "1. Rūpakkhandho",
+       "english": "1. The Aggregate of Material Quality",
+       "paras": [
+        2,
+        7
+       ]
+      },
+      {
+       "pali": "2. Vedanākkhandho",
+       "english": "2. The Aggregate of Feeling",
+       "paras": [
+        8,
+        13
+       ]
+      },
+      {
+       "pali": "3. Saññākkhandho",
+       "english": "3. The Aggregate of Perception",
+       "paras": [
+        14,
+        19
+       ]
+      },
+      {
+       "pali": "4. Saṅkhārakkhandho",
+       "english": "4. The Aggregate of Mental Concomitants",
+       "paras": [
+        20,
+        25
+       ]
+      },
+      {
+       "pali": "5. Viññāṇakkhandho",
+       "english": "5. The Aggregate of Consciousness",
+       "paras": [
+        26,
+        31
+       ]
+      }
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      32,
+      149
+     ],
+     "sections": [
+      {
+       "pali": "1. Rūpakkhandho",
+       "english": "1. The Aggregate of Material Quality",
+       "paras": [
+        33,
+        33
+       ]
+      },
+      {
+       "pali": "2. Vedanākkhandho",
+       "english": "2. The Aggregate of Feeling",
+       "paras": [
+        34,
+        61
+       ]
+      },
+      {
+       "pali": "3. Saññākkhandho",
+       "english": "3. The Aggregate of Perception",
+       "paras": [
+        62,
+        91
+       ]
+      },
+      {
+       "pali": "4. Saṅkhārakkhandho",
+       "english": "4. The Aggregate of Mental Concomitants",
+       "paras": [
+        92,
+        120
+       ]
+      },
+      {
+       "pali": "5. Viññāṇakkhandho",
+       "english": "5. The Aggregate of Consciousness",
+       "paras": [
+        121,
+        149
+       ]
+      }
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      150,
+      153
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        152,
+        152
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        153,
+        153
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "2. Āyatanavibhaṅgo",
+   "english": "2. Analysis of the Bases",
+   "paras": [
+    154,
+    171
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      154,
+      154
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      155,
+      167
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      168,
+      171
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        170,
+        170
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        171,
+        171
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "3. Dhātuvibhaṅgo",
+   "english": "3. Analysis of the Elements",
+   "paras": [
+    172,
+    188
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      172,
+      182
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      183,
+      184
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      185,
+      188
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        187,
+        187
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        188,
+        188
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "4. Saccavibhaṅgo",
+   "english": "4. Analysis of the Truths",
+   "paras": [
+    189,
+    218
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      189,
+      205
+     ],
+     "sections": [
+      {
+       "pali": "1. Dukkhasaccaṃ",
+       "english": "1. The Truth of Suffering",
+       "paras": [
+        190,
+        202
+       ]
+      },
+      {
+       "pali": "2. Samudayasaccaṃ",
+       "english": "2. The Truth of the Cause",
+       "paras": [
+        203,
+        203
+       ]
+      },
+      {
+       "pali": "3. Nirodhasaccaṃ",
+       "english": "3. The Truth of Cessation",
+       "paras": [
+        204,
+        204
+       ]
+      },
+      {
+       "pali": "4. Maggasaccaṃ",
+       "english": "4. The Truth of the Path",
+       "paras": [
+        205,
+        205
+       ]
+      }
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      206,
+      214
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      215,
+      218
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        217,
+        217
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        218,
+        218
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "5. Indriyavibhaṅgo",
+   "english": "5. Analysis of the Controlling Faculties",
+   "paras": [
+    219,
+    224
+   ],
+   "sections": [
+    {
+     "pali": "1. Abhidhammabhājanīyaṃ",
+     "english": "1. Analysis According to Abhidhamma",
+     "paras": [
+      219,
+      220
+     ]
+    },
+    {
+     "pali": "2. Pañhāpucchakaṃ",
+     "english": "2. Interrogation",
+     "paras": [
+      221,
+      224
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        223,
+        223
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        224,
+        224
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,13 +1,7 @@
 {
  "status": "running",
- "lock": "2026-11-26T07:08:48Z",
+ "lock": "",
  "queue": [
-  {
-   "item": "text",
-   "to_page": 278,
-   "to_para": 224,
-   "what": "Āyatana-, Dhātu-, Sacca-, Indriyavibhaṅga"
-  },
   {
    "item": "text",
    "to_page": 352,
