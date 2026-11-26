@@ -47,7 +47,7 @@ byte-identical: `git status` shows only thittila/, data/thittila.json, data/libr
 search and compare pages, and this autopilot's files. Spot-check two paragraphs of the new chunk against
 the Pāli (same §, same content).
 
-Then remove the item from `queue`, clear `lock`, add an entry at the top of `AUTOPILOT_LOG.md` (the
+Then remove the item from `queue` (a `translate` item stays until its whole book is done), clear `lock`, add an entry at the top of `AUTOPILOT_LOG.md` (the
 date, the item, paragraphs and parts produced, parser changes, anything doubtful), commit and push to
 `main`. If the checks cannot be made to pass within the run, push nothing but the log entry and the
 lock cleared. Leave the item in the queue with a `note`, and after the same item has failed twice, set
