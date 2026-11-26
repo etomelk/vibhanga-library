@@ -45,6 +45,23 @@
   {
    "item": "index",
    "what": "index of terms, bibliography; then done"
+  },
+  {
+   "item": "translate",
+   "book": "sammoha"
+  },
+  {
+   "item": "translate",
+   "book": "mulatika"
+  },
+  {
+   "item": "translate",
+   "book": "anutika"
   }
- ]
+ ],
+ "next": {
+  "book": "sammoha",
+  "part": 0,
+  "block": 0
+ }
 }

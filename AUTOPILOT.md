@@ -1,4 +1,4 @@
-# Autopilot: finishing Thiṭṭila's Book of Analysis
+# Autopilot: finishing Thiṭṭila's Book of Analysis, then translating the commentaries
 
 A scheduled task runs every hour. Each run is a fresh session with no memory. All it knows is this
 file, `data/autopilot.json` (the queue) and `AUTOPILOT_LOG.md` (what earlier runs did). The owner
@@ -32,7 +32,9 @@ Take the first item of `queue` in `data/autopilot.json`:
   translator's preface and the Introduction) as a part `0` before the text. Its headings are 24.8 pt.
 - **`index` item**: the Index of Terms and Phrases Defined (PDF pages 679–696) becomes the book's
   `glossary` (its entries link to pages; see how the Dhammasaṅgaṇī Library's `scripts/rhysdavids/parse.py`
-  does Rhys Davids' index), and the Bibliography (697–699) becomes a last part. Then set `status` to `done`.
+  does Rhys Davids' index), and the Bibliography (697–699) becomes a last part.
+
+- **`translate` items** (`book`: `sammoha`, then `mulatika`, then `anutika`): see "Translating" below.
 
 Update the book's `note` in `data/library.json` so that it says how far the text goes.
 
@@ -50,3 +52,45 @@ date, the item, paragraphs and parts produced, parser changes, anything doubtful
 `main`. If the checks cannot be made to pass within the run, push nothing but the log entry and the
 lock cleared. Leave the item in the queue with a `note`, and after the same item has failed twice, set
 `status` to `blocked`.
+
+## Translating (the `translate` items)
+
+The owner asked on 2026-11-26 for the commentaries to be translated into English, in this order: the
+Sammohavinodanī first, then the Mūlaṭīkā (which explains it), then the Anuṭīkā (which explains the
+Mūlaṭīkā). The same was done for the Dhammasaṅgaṇī's sub-commentaries in etomelk/dhammasangani-library,
+and its conventions and term list are copied into `data/translations/README.md`. **Read that README
+first, every run.**
+
+- **One chunk** is about **2,500 Pāli words**. Take the rest of the part if that is no more than ~3,000
+  words; otherwise take blocks up to ~2,500 words, ending at a block boundary (a heading, or the end of
+  an argument, is best). The position is `next` in `data/autopilot.json`: `{"book", "part", "block"}`.
+  Print the Pāli with `python3 scripts/translation/show.py <book> <part> <from>`.
+- **Accuracy first.** Translate what the Pāli says, literally, following its argument and grammar.
+  Never paraphrase loosely, summarise, skip a sentence or add explanation that is not in the text. Where
+  a reading or a sense is uncertain, give the best rendering and mark it `[?: why]`; list every `[?]` in
+  the log.
+- **One style.** Before translating, read the last part done of the same book (and, for a book's first
+  part, part 1 of the book before it) to keep the voice the same. A new technical term gets a fixed
+  rendering in the README's term list, in the same commit, and keeps it from then on.
+- **Files.** Write `data/translations/<book>/<NN>.md` (NN = the part, two digits). Create it with the
+  `label:` / `title:` header if it is new (the label in English, e.g. "Analysis of the Aggregates", as
+  Thiṭṭila names the vibhaṅga; the title "English (Pāli title)"). Then append `@<block>` entries in
+  order: every block gets an entry, headings and verse lines included.
+- **Build and check:** `python3 scripts/build_translation.py` must print no `!` problems (every block
+  present, every `⟨pg:…⟩` marker kept). Then run the checks above with `<book>-en` in place of thittila
+  (check_phone on `<book>-en`), and look once at the new part beside the Pāli
+  (`compare/?a=<book>&b=<book>-en`). A partly translated part shows its remaining blocks in Pāli,
+  marked "not yet translated"; that is expected between runs.
+- **Then** set `next` to the block after the chunk (at the end of a part, block 0 of the next part; at
+  the end of a book, remove its item from `queue` and set `next` to part 0, block 0 of the next book).
+  Log the book, part, blocks, Pāli words, every `[?]` and any new term.
+- **The end.** When the queue is empty, one last run reads the three books through for consistency
+  (the term list applied everywhere, the lemma format, the headings), gathers the `[?]` list into the
+  last log entry, and sets `status` to `done`.
+
+## For the owner
+
+- To pause, set `"status": "paused"` in `data/autopilot.json` (or ask Claude to). To resume, set it to
+  `"running"`.
+- Progress is in `AUTOPILOT_LOG.md`, and on the site: the draft translations shelf shows each book from
+  its first part on, with how much is done.

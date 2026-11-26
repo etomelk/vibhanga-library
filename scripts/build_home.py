@@ -13,9 +13,10 @@ SHELVES = [
     ('The Vibhaṅga in English', 'U Thiṭṭila’s translation of the Sixth Council text.', ('thittila',)),
     ('The Vibhaṅga in Pāli', 'The text itself, in the Sixth Council edition.', ('pali',)),
     ('The commentaries', 'Buddhaghosa’s Sammohavinodanī, then the sub-commentary and the sub-sub-commentary on it.', ('sammoha', 'mulatika', 'anutika')),
+    ('Draft translations', 'The commentaries in English, made with Claude for this library and read beside the Pāli: drafts to be checked, not published translations.', ('sammoha-en', 'mulatika-en', 'anutika-en')),
 ]
 _shelf = {s: k for k, (_, _, ss) in enumerate(SHELVES) for s in ss}
-assert set(_shelf) == {b['slug'] for b in lib['books']}, 'every book needs a shelf'
+assert {b['slug'] for b in lib['books']} <= set(_shelf), 'every book needs a shelf'   # a shelf may list a book not begun yet
 lib['books'].sort(key=lambda b: (_shelf[b['slug']], SHELVES[_shelf[b['slug']]][2].index(b['slug'])))
 cards = []
 nunits = nanchors = nentries = 0
