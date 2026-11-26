@@ -2,6 +2,14 @@
 
 Newest first. See AUTOPILOT.md for the rules.
 
+## 2026-11-26 09:04 UTC — text to §507 (Satipaṭṭhāna- to Maggaṅgavibhaṅga)
+
+- §355–507, five new parts (ch10–ch14), PDF pp. 353–424; no paragraphs out of order. No parser change.
+- Earlier output: not additions only. Five lines in §1–354 changed, all line-end hyphens now kept because the new pages write the words with a hyphen inside a line ("nonarising" → "non-arising", "nondistraction" → "non-distraction", "mindfulnessenlightenment-factor" → "mindfulness-enlightenment-factor" ×2, "truth investigationenlightenment-factor" → "truth investigation-enlightenment-factor"). These are corrections made by the parser's existing hyphen rule (it counts the whole parsed text), so they were kept.
+- data/structure.json: vibhaṅgas 7–11 added (103 headings in all, through §507).
+- No Interrogation tags added (same reason as before: one paragraph per Tika/Duka answer).
+- Spot-checked §400, §480 against the Pāli. check_site 0 problems, check_phone 0 failures.
+
 ## 2026-11-26 08:04 UTC — text to §354 (Paṭiccasamuppādavibhaṅga)
 
 - §225–354, two new parts (ch8 Suttanta, ch9 Abhidhamma), PDF pp. 279–352; no paragraphs out of order. §1–224 unchanged (diff is additions only).

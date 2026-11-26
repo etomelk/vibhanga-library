@@ -1,6 +1,6 @@
 {
  "source": "Pāli: data/pali.json; English: Thiṭṭila (data/thittila.json); paras = Vibhaṅga §",
- "through": 354,
+ "through": 507,
  "vibhangas": [
   {
    "pali": "1. Khandhavibhaṅgo",
@@ -514,6 +514,368 @@
        "paras": [
         350,
         354
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "7. Satipaṭṭhānavibhaṅgo",
+   "english": "7. Analysis of the Foundations of Mindfulness",
+   "paras": [
+    355,
+    389
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      355,
+      373
+     ],
+     "sections": [
+      {
+       "pali": "1. Kāyānupassanāniddeso",
+       "english": "1. Exposition of Contemplation on the Body",
+       "paras": [
+        356,
+        362
+       ]
+      },
+      {
+       "pali": "2. Vedanānupassanāniddeso",
+       "english": "2. Exposition of Contemplation on Feelings",
+       "paras": [
+        363,
+        364
+       ]
+      },
+      {
+       "pali": "3. Cittānupassanāniddeso",
+       "english": "3. Exposition of Contemplation on Consciousness",
+       "paras": [
+        365,
+        366
+       ]
+      },
+      {
+       "pali": "4. Dhammānupassanāniddeso",
+       "english": "4. Exposition of Contemplation on Mental States",
+       "paras": [
+        367,
+        373
+       ]
+      }
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      374,
+      385
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      386,
+      389
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        388,
+        388
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        389,
+        389
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "8. Sammappadhānavibhaṅgo",
+   "english": "8. Analysis of Right Striving",
+   "paras": [
+    390,
+    430
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      390,
+      407
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      408,
+      426
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      427,
+      430
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        429,
+        429
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        430,
+        430
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "9. Iddhipādavibhaṅgo",
+   "english": "9. Analysis of the Bases of Accomplishment",
+   "paras": [
+    431,
+    465
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      431,
+      443
+     ],
+     "sections": [
+      {
+       "pali": "1. Chandiddhipādo",
+       "english": "1. Wish as the Basis of Accomplishment",
+       "paras": [
+        432,
+        434
+       ]
+      },
+      {
+       "pali": "2. Vīriyiddhipādo",
+       "english": "2. Energy as the Basis of Accomplishment",
+       "paras": [
+        435,
+        437
+       ]
+      },
+      {
+       "pali": "3. Cittiddhipādo",
+       "english": "3. Consciousness as the Basis of Accomplishment",
+       "paras": [
+        438,
+        440
+       ]
+      },
+      {
+       "pali": "4. Vīmaṃsiddhipādo",
+       "english": "4. Reason as the Basis of Accomplishment",
+       "paras": [
+        441,
+        443
+       ]
+      }
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      444,
+      461
+     ],
+     "sections": [
+      {
+       "pali": "1. Chandiddhipādo",
+       "english": "1. Wish as the Basis of Accomplishment",
+       "paras": [
+        445,
+        447
+       ]
+      },
+      {
+       "pali": "2. Vīriyiddhipādo",
+       "english": "2. Energy as the Basis of Accomplishment",
+       "paras": [
+        448,
+        450
+       ]
+      },
+      {
+       "pali": "3. Cittiddhipādo",
+       "english": "3. Consciousness as the Basis of Accomplishment",
+       "paras": [
+        451,
+        453
+       ]
+      },
+      {
+       "pali": "4. Vīmaṃsiddhipādo",
+       "english": "4. Reason as the Basis of Accomplishment",
+       "paras": [
+        454,
+        461
+       ]
+      }
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      462,
+      465
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        464,
+        464
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        465,
+        465
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "10. Bojjhaṅgavibhaṅgo",
+   "english": "10. Analysis of the Enlightenment Factors",
+   "paras": [
+    466,
+    485
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      466,
+      471
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      472,
+      481
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      482,
+      485
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        484,
+        484
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        485,
+        485
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pali": "11. Maggaṅgavibhaṅgo",
+   "english": "11. Analysis of the Path Constituents",
+   "paras": [
+    486,
+    507
+   ],
+   "sections": [
+    {
+     "pali": "1. Suttantabhājanīyaṃ",
+     "english": "1. Analysis According to the Discourses",
+     "paras": [
+      486,
+      489
+     ]
+    },
+    {
+     "pali": "2. Abhidhammabhājanīyaṃ",
+     "english": "2. Analysis According to Abhidhamma",
+     "paras": [
+      490,
+      503
+     ]
+    },
+    {
+     "pali": "3. Pañhāpucchakaṃ",
+     "english": "3. Interrogation",
+     "paras": [
+      504,
+      507
+     ],
+     "sections": [
+      {
+       "pali": "1. Tikaṃ",
+       "english": "1. The Triplets",
+       "paras": [
+        506,
+        506
+       ]
+      },
+      {
+       "pali": "2. Dukaṃ",
+       "english": "2. The Couplets",
+       "paras": [
+        507,
+        507
        ]
       }
      ]

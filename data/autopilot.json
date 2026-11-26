@@ -1,13 +1,7 @@
 {
  "status": "running",
- "lock": "2026-11-26T09:04Z",
+ "lock": "",
  "queue": [
-  {
-   "item": "text",
-   "to_page": 424,
-   "to_para": 507,
-   "what": "Satipaṭṭhāna- to Maggaṅgavibhaṅga"
-  },
   {
    "item": "text",
    "to_page": 494,
