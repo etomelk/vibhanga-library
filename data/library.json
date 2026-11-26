@@ -1,0 +1,214 @@
+{
+  "title": "Vibhaṅga Library",
+  "tagline": "The second book of the Abhidhamma Piṭaka — the Book of Analysis — its text and commentaries, one section per page, linked paragraph by paragraph.",
+  "books": [
+    {
+      "slug": "pali",
+      "title": "Vibhaṅgapāḷi",
+      "short": "Vibhaṅga in the Sixth Council Pāḷi",
+      "author": "Chaṭṭha Saṅgāyana",
+      "cite": "CS",
+      "level": "Pāli text",
+      "edition": "Sixth Council edition (Yangon, 1954–56), VRI digital text",
+      "by": "Abhidhammapiṭaka, Vibhaṅgapāḷi · the text of the Sixth Buddhist Council (Chaṭṭha Saṅgāyana), Yangon · digital edition of the Vipassana Research Institute",
+      "blurb": "The Book of Analysis itself: eighteen vibhaṅgas, from the aggregates to the heart of the Dhamma, most of them analysed three ways — by the suttas, by the Abhidhamma, and by questions on the mātikā.",
+      "note": "The whole text, one part per vibhaṅga (the longest in two or three): the Khandha-, Āyatana-, Dhātu-, Sacca-, Indriya-, Paṭiccasamuppāda-, Satipaṭṭhāna-, Sammappadhāna-, Iddhipāda-, Bojjhaṅga-, Maggaṅga-, Jhāna-, Appamaññā-, Sikkhāpada-, Paṭisambhidā-, Ñāṇa-, Khuddakavatthu- and Dhammahadaya-vibhaṅga (§1–1044). Each § links to the commentary and sub-commentaries on it; the margin gives the pages of the Myanmar edition and, marked P, of the PTS edition (Rhys Davids 1904); the edition’s variant readings are notes.",
+      "brand_sub": "Sixth Council Pāḷi",
+      "toc_foot": "The eighteen vibhaṅgas ({{NPARA}} numbered paragraphs), in the Sixth Council text.",
+      "source": "Source: the Chaṭṭha Saṅgāyana (Sixth Council) text of the Vibhaṅga as published in digital form by the Vipassana Research Institute (romn/abh02m.mul.xml, github.com/VipassanaTech/tipitaka-xml). The text is unchanged; its paragraph numbers, the pages of the Myanmar edition and, marked P, of the PTS edition, and the variant readings are as in the file.",
+      "desc": "The Vibhaṅga in the Pāli of the Sixth Council edition, with its paragraph numbers, page numbers and variant readings, linked to its commentaries.",
+      "howto": [
+        [
+          "Find anything",
+          "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+        ],
+        [
+          "Go to a paragraph",
+          "Type a number in <b>§</b> (1–1044)."
+        ],
+        [
+          "Between the books",
+          "The small chips beside a § open the Sammohavinodanī, the Mūlaṭīkā and the Anuṭīkā on the same paragraph."
+        ]
+      ],
+      "goto_aria": "Go to paragraph",
+      "pts_label": "Pāli",
+      "unit": "Part",
+      "cid": "ch",
+      "sign": "§",
+      "margin_sign": "",
+      "xrefs": false,
+      "footnotes": true,
+      "split": true,
+      "inline_markup": true,
+      "goto": "p",
+      "goto_label": "§",
+      "goto_max": 1044,
+      "pts_map": "vibhanga-pts.json",
+      "anchor": "^(p\\d+|pg\\w+)$",
+      "drawer_btn": "Notes",
+      "drawer_title": "Pāli terms",
+      "drawer_hint": "The text has no index of its own.",
+      "page_books": {
+        "P": "PTS"
+      },
+      "page_letter_visible": true
+    },
+    {
+      "slug": "sammoha",
+      "title": "Sammohavinodanī",
+      "short": "Sammohavinodanī (the commentary)",
+      "author": "Buddhaghosa",
+      "cite": "Sammohavinodanī",
+      "level": "Commentary",
+      "edition": "Vibhaṅga-aṭṭhakathā, Sixth Council edition, VRI digital text",
+      "brand_sub": "Commentary · Buddhaghosa",
+      "by": "Vibhaṅga-aṭṭhakathā (Sammohavinodanī nāma), ascribed to Buddhaghosa (5th century) · the text of the Sixth Buddhist Council (Chaṭṭha Saṅgāyana), Yangon · digital edition of the Vipassana Research Institute",
+      "blurb": "“The Dispeller of Delusion”: the commentary on the Vibhaṅga, in the Pāli of the Sixth Council edition, vibhaṅga by vibhaṅga — with its long treatments of dependent origination, the foundations of mindfulness and jhāna.",
+      "note": "The whole commentary, one part per vibhaṅga (the longest cut at their sections). Each numbered paragraph explains the Vibhaṅga paragraph with the same number, and links to it in the Pāli text and to the sub-commentaries on it; those link back. The words explained are in bold, as in the edition. The margin gives the pages of the Myanmar edition and, marked P, of the PTS edition (A. P. Buddhadatta 1923), which Ñāṇamoli’s translation, The Dispeller of Delusion, gives in its margin.",
+      "toc_foot": "The eighteen vibhaṅgas ({{NPARA}} numbered paragraphs, by the paragraph of the Vibhaṅga they explain).",
+      "source": "Source: the Chaṭṭha Saṅgāyana (Sixth Council) text of the Vibhaṅga-aṭṭhakathā (Sammohavinodanī) as published in digital form by the Vipassana Research Institute (romn/abh02a.att.xml, github.com/VipassanaTech/tipitaka-xml). The text is unchanged; its paragraph numbers, the pages of the Myanmar edition and, marked P, of the PTS edition, and the variant readings are as in the file.",
+      "desc": "The Sammohavinodanī, the commentary on the Vibhaṅga, in the Sixth Council Pāli, linked paragraph by paragraph to the text.",
+      "howto": [
+        [
+          "Find anything",
+          "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+        ],
+        [
+          "Go to the commentary on a paragraph",
+          "Type the number of the Vibhaṅga paragraph in <b>§</b> (1–1044); not every paragraph has its own comment."
+        ],
+        [
+          "Between the books",
+          "The chips beside a § open that paragraph in the Pāli text and the sub-commentaries on it."
+        ]
+      ],
+      "goto_aria": "Go to the commentary on a paragraph",
+      "pts_label": "Sammohavinodanī",
+      "unit": "Part",
+      "cid": "ch",
+      "sign": "§",
+      "margin_sign": "",
+      "xrefs": false,
+      "footnotes": true,
+      "split": true,
+      "inline_markup": true,
+      "goto": "p",
+      "goto_label": "§",
+      "goto_max": 1044,
+      "pts_map": "vibhanga-pts.json",
+      "anchor": "^(p\\d+|pg\\w+)$",
+      "drawer_btn": "Notes",
+      "drawer_title": "Pāli terms",
+      "drawer_hint": "The text has no index of its own.",
+      "page_books": {
+        "P": "PTS"
+      },
+      "page_letter_visible": true
+    },
+    {
+      "slug": "mulatika",
+      "title": "Vibhaṅga-mūlaṭīkā",
+      "short": "Mūlaṭīkā (the sub-commentary)",
+      "author": "Ānanda",
+      "cite": "Mūlaṭīkā",
+      "level": "Commentary",
+      "edition": "Vibhaṅga-mūlaṭīkā, Sixth Council edition, VRI digital text",
+      "brand_sub": "Sub-commentary · Ānanda",
+      "by": "Vibhaṅga-mūlaṭīkā, by Ānanda Vanaratana · the text of the Sixth Buddhist Council (Chaṭṭha Saṅgāyana), Yangon · digital edition of the Vipassana Research Institute",
+      "blurb": "Ānanda’s sub-commentary, which explains the Sammohavinodanī in its turn, in the Pāli of the Sixth Council edition.",
+      "note": "The whole sub-commentary, one part per vibhaṅga. Its numbered paragraphs follow the Vibhaṅga paragraph that the Sammohavinodanī explains, and link to that paragraph in the commentary, the Pāli text and the Anuṭīkā. The words explained are in bold.",
+      "toc_foot": "The eighteen vibhaṅgas ({{NPARA}} numbered paragraphs, by the paragraph of the Vibhaṅga).",
+      "source": "Source: the Chaṭṭha Saṅgāyana (Sixth Council) text of the Vibhaṅga-mūlaṭīkā as published in digital form by the Vipassana Research Institute (romn/abh02t.tik.xml, its first book, github.com/VipassanaTech/tipitaka-xml). The text is unchanged; its paragraph numbers, the pages of the Myanmar edition and, marked P, of the PTS edition, and the variant readings are as in the file.",
+      "desc": "Ānanda’s Mūlaṭīkā on the Sammohavinodanī, in the Sixth Council Pāli, linked to the commentary and the text by paragraph.",
+      "howto": [
+        [
+          "Find anything",
+          "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+        ],
+        [
+          "Go to a paragraph",
+          "Type the number of the Vibhaṅga paragraph in <b>§</b> (1–1044); only some paragraphs have a sub-comment."
+        ],
+        [
+          "Between the books",
+          "The chips beside a § open the same paragraph in the Sammohavinodanī, the Pāli text and the Anuṭīkā."
+        ]
+      ],
+      "goto_aria": "Go to the commentary on a paragraph",
+      "pts_label": "Mūlaṭīkā",
+      "unit": "Part",
+      "cid": "ch",
+      "sign": "§",
+      "margin_sign": "",
+      "xrefs": false,
+      "footnotes": true,
+      "split": true,
+      "inline_markup": true,
+      "goto": "p",
+      "goto_label": "§",
+      "goto_max": 1044,
+      "pts_map": "vibhanga-pts.json",
+      "anchor": "^(p\\d+|pg\\w+)$",
+      "drawer_btn": "Notes",
+      "drawer_title": "Pāli terms",
+      "drawer_hint": "The text has no index of its own.",
+      "page_books": {
+        "P": "PTS"
+      },
+      "page_letter_visible": true
+    },
+    {
+      "slug": "anutika",
+      "title": "Vibhaṅga-anuṭīkā",
+      "short": "Anuṭīkā (the sub-sub-commentary)",
+      "author": "Dhammapāla",
+      "cite": "Anuṭīkā",
+      "level": "Commentary",
+      "edition": "Vibhaṅga-anuṭīkā, Sixth Council edition, VRI digital text",
+      "brand_sub": "Anuṭīkā · Dhammapāla",
+      "by": "Vibhaṅga-anuṭīkā, ascribed to Ānanda’s pupil Dhammapāla · the text of the Sixth Buddhist Council (Chaṭṭha Saṅgāyana), Yangon · digital edition of the Vipassana Research Institute",
+      "blurb": "The Anuṭīkā, which explains the Mūlaṭīkā in its turn: the third layer of commentary on the Vibhaṅga, in the Pāli of the Sixth Council edition.",
+      "note": "The whole Anuṭīkā, one part per vibhaṅga. Its numbered paragraphs follow the Vibhaṅga paragraph that the commentaries explain, and link to that paragraph in the Mūlaṭīkā, the Sammohavinodanī and the Pāli text. The words explained are in bold.",
+      "toc_foot": "The eighteen vibhaṅgas ({{NPARA}} numbered paragraphs, by the paragraph of the Vibhaṅga).",
+      "source": "Source: the Chaṭṭha Saṅgāyana (Sixth Council) text of the Vibhaṅga-anuṭīkā as published in digital form by the Vipassana Research Institute (romn/abh02t.tik.xml, its second book, github.com/VipassanaTech/tipitaka-xml). The text is unchanged; its paragraph numbers, the pages of the Myanmar edition and, marked P, of the PTS edition, and the variant readings are as in the file.",
+      "desc": "The Anuṭīkā on the Vibhaṅga, in the Sixth Council Pāli, linked to the Mūlaṭīkā, the Sammohavinodanī and the text by paragraph.",
+      "howto": [
+        [
+          "Find anything",
+          "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+        ],
+        [
+          "Go to a paragraph",
+          "Type the number of the Vibhaṅga paragraph in <b>§</b> (1–1044); only some paragraphs have a sub-comment."
+        ],
+        [
+          "Between the books",
+          "The chips beside a § open the same paragraph in the Mūlaṭīkā, the Sammohavinodanī and the Pāli text."
+        ]
+      ],
+      "goto_aria": "Go to the commentary on a paragraph",
+      "pts_label": "Anuṭīkā",
+      "unit": "Part",
+      "cid": "ch",
+      "sign": "§",
+      "margin_sign": "",
+      "xrefs": false,
+      "footnotes": true,
+      "split": true,
+      "inline_markup": true,
+      "goto": "p",
+      "goto_label": "§",
+      "goto_max": 1044,
+      "pts_map": "vibhanga-pts.json",
+      "anchor": "^(p\\d+|pg\\w+)$",
+      "drawer_btn": "Notes",
+      "drawer_title": "Pāli terms",
+      "drawer_hint": "The text has no index of its own.",
+      "page_books": {
+        "P": "PTS"
+      },
+      "page_letter_visible": true
+    }
+  ]
+}

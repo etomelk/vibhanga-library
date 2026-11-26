@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" class="lib">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{TAGLINE}}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="shared/reader.css">
+<link rel="stylesheet" href="shared/home.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="./">{{TITLE}}<small>{{NBOOKS}}</small></a>
+  <nav class="topnav"><a class="navsearch onhome" href="search/" title="Search all the books"><svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.6 10.6 14.5 14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span>Search</span></a><a href="#books">Books</a><a href="compare/">Side by side</a><a href="references/">References</a></nav>
+  <button class="iconbtn" id="themebtn" aria-label="Toggle theme" title="Toggle light / dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div>
+<main>
+  <div class="col">
+    <header class="hero">
+      <p class="kicker">Study editions · free to read</p>
+      <h1>{{TITLE}}</h1>
+      <p class="lede">{{TAGLINE}}</p>
+      <form class="libsearch" role="search" action="search/">
+        <svg class="sicon" width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.6 10.6 14.5 14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <input id="homeq" name="q" type="search" placeholder="Search in Pāli or English" aria-label="Search all the books" autocomplete="off" spellcheck="false">
+        <button type="submit">Search</button>
+      </form>
+      <p class="shint">For example <a href="search/?q=paticcasamuppada">paṭiccasamuppāda</a>, <a href="search/?q=satipatthana">satipaṭṭhāna</a>, <a href="search/?q=jhana">jhāna</a>. Accents are optional.</p>
+      <ul class="stats">{{STATS}}</ul>
+    </header>
+
+    <section class="continue" id="continue" hidden aria-label="Continue reading"></section>
+
+    <section class="shelf" id="books">
+      <div class="sechead"><h2>The books</h2><p>The text and its three layers of commentary, linked paragraph by paragraph. Translations and study notes will join them.</p></div>
+{{BOOKS}}
+    </section>
+
+    <section class="reftease">
+      <a class="teaser" href="compare/?a=pali&amp;b=sammoha">
+        <span class="tkick">Between the books</span>
+        <span class="ttitle">Side by side</span>
+        <span class="tdesc">Any two books next to each other at the same paragraph — the Vibhaṅga beside the Sammohavinodanī, the commentary beside its sub-commentary — kept in step as you read either one.</span>
+        <span class="tgo">Open two books →</span>
+      </a>
+    </section>
+
+    <section class="reftease">
+      <a class="teaser" href="references/">
+        <span class="tkick">Further reading</span>
+        <span class="ttitle">References</span>
+        <span class="tdesc">Editions, translations and reference works — with links to the texts where they are online.</span>
+        <span class="tgo">Browse the list →</span>
+      </a>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About this library</h2>
+      <div class="aboutgrid">
+        <div>
+          <h3>Reading</h3>
+          <ul>
+            <li>One part of a book per page, with its contents beside it.</li>
+            <li>Each book keeps its own numbering. Enter a number in the box at the top to go straight to it.</li>
+            <li>Every numbered section and printed page can be linked to.</li>
+            <li>Search finds words within a book; accents are optional, so <i>rupa</i> finds <i>rūpa</i>.</li>
+            <li>A book’s own index or glossary, where it has one, opens beside the text.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Between the books</h3>
+          <ul>
+            <li>Every book here shares the Sixth Council paragraph numbers of the Vibhaṅga (§1–1044): the commentaries are numbered by the paragraph they explain.</li>
+            <li>The small chips beside a § open the same paragraph in the other books.</li>
+            <li>Side by side shows any two books together, kept at the same paragraph.</li>
+            <li>The pages of the Myanmar edition, and (marked P) of the PTS editions, are in the margin.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>The texts</h3>
+          <ul>
+            <li>The Pāli texts are those of the Sixth Council edition as the Vipassana Research Institute publishes them, unchanged.</li>
+            <li>The words a commentary explains are in bold, as in the edition; its variant readings are notes.</li>
+            <li>Your reading position and settings are stored only in this browser.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="rights" id="rights">
+      <h2>A note on rights</h2>
+      <p>This library is offered freely as <i>Dhamma-dāna</i>, a gift of the Dhamma. It was made only to make study easier for students of the Abhidhamma and for all <i>Dhammakāmī</i>, those who love the Dhamma. It is not sold, and it earns nothing.</p>
+      <p>All rights in the texts, translations, notes and editions gathered here belong to their authors, translators, editors and publishers. These include:</p>
+      <ul>
+        <li>the Pali Text Society;</li>
+        <li>the Vipassana Research Institute and the Sixth Buddhist Council edition;</li>
+
+      </ul>
+      <p>This library holds no copyright in any of these works and claims no authority over them. Its own part is limited to arranging the texts, linking them to one another, and noting corrections.</p>
+      <p>Anyone who wishes to reproduce, republish, adapt or redistribute any of this material, in whole or in part and in any form, should seek permission from the rights holders concerned. This library cannot give that permission.</p>
+      <p>Any errors in transcription or arrangement are ours, not the authors’. If you hold rights in any work here and would like it changed or removed, please let us know, and we will gladly do so.</p>
+      <p class="anumodana"><i>Sabbadānaṃ dhammadānaṃ jināti.</i> The gift of the Dhamma excels all gifts.</p>
+    </section>
+
+    <footer class="source">
+      <p class="rightsline">Offered freely as <i>Dhamma-dāna</i>, for study. All rights in these works belong to their authors, translators and publishers; this library claims none and cannot grant permission to reproduce them. <a href="#rights">A note on rights</a></p>
+    </footer>
+  </div>
+</main>
+<script>
+(function(){
+  const root=document.documentElement;
+  document.addEventListener('keydown',e=>{ if(e.key==='/' && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)){ const q=document.getElementById('homeq'); if(q){ e.preventDefault(); q.focus(); } } });
+  try{const t=localStorage.getItem('pg-theme'); if(t) root.setAttribute('data-theme',t);}catch(e){}
+  document.getElementById('themebtn').addEventListener('click',()=>{
+    const dark = root.getAttribute('data-theme')==='dark' || (!root.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    const next = dark?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('pg-theme',next);}catch(e){}
+  });
+  /* "Continue reading" per book, from the position each reader saved */
+  const recent=[];
+  document.querySelectorAll('.book').forEach(a=>{
+    let last=null; try{last=JSON.parse(localStorage.getItem('pg-last:'+a.dataset.slug)||'null');}catch(e){}
+    if(!last) return;
+    recent.push({slug:a.dataset.slug, title:a.querySelector('.btitle').textContent, by:a.querySelector('.bby').textContent, hue:a.style.getPropertyValue('--hue'), last});
+    const s=a.querySelector('.bresume'); s.hidden=false; s.textContent='Continue: '+last.where+' →';
+    s.addEventListener('click',e=>{ e.preventDefault(); e.stopPropagation(); location.href=a.dataset.slug+'/#'+last.id; });
+  });
+  /* the card at the top: the book read last, and the others begun */
+  if(recent.length){
+    const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    recent.sort((x,y)=>(y.last.t||0)-(x.last.t||0));
+    const [r,...more]=recent, box=document.getElementById('continue');
+    const ago=t=>{ if(!t) return ''; const m=Math.round((Date.now()-t)/60000); return m<2?'just now':m<60?m+' minutes ago':m<1440?Math.round(m/60)+' hour'+(m<120?'':'s')+' ago':Math.round(m/1440)+' day'+(m<2880?'':'s')+' ago'; };
+    box.innerHTML='<a class="cmain" href="'+r.slug+'/#'+encodeURIComponent(r.last.id)+'" style="--hue:'+esc(r.hue)+'"><span class="ckick">Continue reading'+(r.last.t?' · '+ago(r.last.t):'')+'</span><span class="ctitle">'+esc(r.title)+'</span><span class="cwhere">'+esc(r.last.where)+'</span><span class="cgo">Continue →</span></a>'+
+      (more.length?'<div class="cmore"><span>Also begun:</span>'+more.slice(0,4).map(x=>'<a href="'+x.slug+'/#'+encodeURIComponent(x.last.id)+'" title="'+esc(x.last.where)+'">'+esc(x.title)+'</a>').join('')+'</div>':'');
+    box.hidden=false;
+  }
+})();
+</script>
+</body>
+</html>

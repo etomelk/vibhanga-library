@@ -1,0 +1,197 @@
+{
+ "areas": [
+  {
+   "id": "editions",
+   "name": "Editions of the text",
+   "blurb": "Pāli editions of the Vibhaṅga and of its commentary, the Sammohavinodanī, with its sub-commentaries."
+  },
+  {
+   "id": "translations",
+   "name": "Translations",
+   "blurb": "The Vibhaṅga and the Sammohavinodanī in English."
+  },
+  {
+   "id": "reference",
+   "name": "Reference works",
+   "blurb": "Dictionaries, handbooks and the online Tipiṭaka sites and readers used alongside the text."
+  }
+ ],
+ "refs": [
+  {
+   "area": "editions",
+   "authors": "Rhys Davids, C. A. F. (Ed.)",
+   "year": "1904",
+   "title": "The Vibhaṅga, being the second book of the Abhidhamma Piṭaka",
+   "where": "London: Pali Text Society (Henry Frowde) (reprinted 1978)",
+   "url": "",
+   "lib": "",
+   "found": "https://openlibrary.org/borrow/ia/vibhagabeingsec00davigoog",
+   "label": "Scan"
+  },
+  {
+   "area": "editions",
+   "authors": "Buddhadatta, A. P. (Ed.)",
+   "year": "1923",
+   "title": "Sammohavinodanī: Abhidhamma-piṭake Vibhaṅgaṭṭhakathā",
+   "where": "London: Pali Text Society (reprinted 1980)",
+   "url": "",
+   "lib": "",
+   "found": "https://palitextsociety.org/?p=5289",
+   "label": "Publisher"
+  },
+  {
+   "area": "editions",
+   "authors": "Chaṭṭha Saṅgāyana",
+   "year": "1956",
+   "title": "Abhidhammapiṭaka, Vibhaṅgapāḷi (Sixth Council edition)",
+   "where": "Yangon: Buddhasāsana Samiti; digital edition, Vipassana Research Institute (romn/abh02m.mul.xml)",
+   "url": "",
+   "lib": "pali/",
+   "found": "https://tipitaka.org/",
+   "label": "Online"
+  },
+  {
+   "area": "editions",
+   "authors": "Chaṭṭha Saṅgāyana",
+   "year": "1956b",
+   "title": "Vibhaṅga-aṭṭhakathā (Sammohavinodanī), -mūlaṭīkā and -anuṭīkā (Sixth Council edition)",
+   "where": "Yangon: Buddhasāsana Samiti; digital edition, Vipassana Research Institute (romn/abh02a.att.xml, abh02t.tik.xml)",
+   "url": "",
+   "lib": "sammoha/",
+   "found": "https://tipitaka.org/",
+   "label": "Online"
+  },
+  {
+   "area": "translations",
+   "authors": "Thiṭṭila, P. A. (Trans.)",
+   "year": "1969",
+   "title": "The book of analysis (Vibhaṅga): The second book of the Abhidhamma Piṭaka, translated from the Pāḷi of the Burmese Chaṭṭhasaṅgīti edition",
+   "where": "London: Pali Text Society (Luzac) (Translation Series 39; reprinted 1988, 1995, 2010)",
+   "url": "",
+   "lib": "",
+   "found": "https://palitextsociety.org/?p=818",
+   "label": "Publisher"
+  },
+  {
+   "area": "translations",
+   "authors": "Ñāṇamoli (Trans.); Cousins, L. S., Nyanaponika, & Shaw, C. M. M. (Rev.)",
+   "year": "1987–1991",
+   "title": "The dispeller of delusion (Sammohavinodanī) (Parts I–II)",
+   "where": "London: Pali Text Society (Sacred Books of the Buddhists 40–41; reprinted as one volume 2017)",
+   "url": "",
+   "lib": "",
+   "found": "https://palitextsociety.org/?p=4932",
+   "label": "Publisher"
+  },
+  {
+   "area": "reference",
+   "authors": "Bodhirasa",
+   "year": "n.d.",
+   "title": "Digital Pāḷi dictionary [online dictionary]",
+   "where": "",
+   "url": "",
+   "lib": "",
+   "found": "https://dpdict.net",
+   "label": "Online"
+  },
+  {
+   "area": "reference",
+   "authors": "Cone, M.",
+   "year": "2001–2020",
+   "title": "A dictionary of Pāli (Vols. I–III)",
+   "where": "The Pali Text Society (searchable online through the Society)",
+   "url": "",
+   "lib": "",
+   "found": "https://palitextsociety.org/a-dictionary-of-pali-online/",
+   "label": "Publisher"
+  },
+  {
+   "area": "reference",
+   "authors": "Malalasekera, G. P.",
+   "year": "1937–1938",
+   "title": "Dictionary of Pāli proper names (Vols. I–II)",
+   "where": "London: John Murray (Indian Texts Series)",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "reference",
+   "authors": "Nyanatiloka",
+   "year": "1980",
+   "title": "Buddhist dictionary: Manual of Buddhist terms and doctrines (Nyanaponika, Ed.; 4th rev. ed.)",
+   "where": "Kandy: Buddhist Publication Society (first published 1952)",
+   "url": "",
+   "lib": "",
+   "found": "https://bps.lk/book/buddhist-dictionary",
+   "label": "Publisher"
+  },
+  {
+   "area": "reference",
+   "authors": "Ñāṇamoli",
+   "year": "1994",
+   "title": "A Pali-English glossary of Buddhist technical terms (Bodhi, Ed.)",
+   "where": "Kandy: Buddhist Publication Society (2nd ed. 2007)",
+   "url": "",
+   "lib": "",
+   "found": "https://www.bps.lk/olib/bp/bp608s_Nyanamoli_Pali-Glossary.pdf",
+   "label": "Publisher"
+  },
+  {
+   "area": "reference",
+   "authors": "Rhys Davids, T. W., & Stede, W. (Eds.)",
+   "year": "1921–1925",
+   "title": "The Pali Text Society’s Pali-English dictionary",
+   "where": "Chipstead: The Pali Text Society (searchable edition, Digital Dictionaries of South Asia, University of Chicago)",
+   "url": "",
+   "lib": "",
+   "found": "https://dsal.uchicago.edu/dictionaries/pali/index.html",
+   "label": "Online"
+  },
+  {
+   "area": "reference",
+   "authors": "Trenckner, V., Andersen, D., Smith, H., et al. (Eds.)",
+   "year": "1925–2011",
+   "title": "A critical Pāli dictionary (Vols. I–III)",
+   "where": "Copenhagen: Royal Danish Academy of Sciences and Letters (online edition, University of Cologne, with the Pali Text Society)",
+   "url": "",
+   "lib": "",
+   "found": "https://cpd.uni-koeln.de/",
+   "label": "Online"
+  },
+  {
+   "area": "reference",
+   "authors": "Sirimangalo International",
+   "year": "n.d.",
+   "title": "Digital Pāḷi reader [the canon with its aṭṭhakathā and ṭīkā, dictionaries and search]",
+   "where": "Sirimangalo.org",
+   "url": "",
+   "lib": "",
+   "found": "https://pali.sirimangalo.org/",
+   "label": "Online"
+  },
+  {
+   "area": "reference",
+   "authors": "SuttaCentral",
+   "year": "n.d.",
+   "title": "SuttaCentral: Early Buddhist texts, translations, and parallels",
+   "where": "SuttaCentral",
+   "url": "",
+   "lib": "",
+   "found": "https://suttacentral.net/",
+   "label": "Online"
+  },
+  {
+   "area": "reference",
+   "authors": "Vipassana Research Institute",
+   "year": "n.d.",
+   "title": "The Pāḷi Tipiṭaka [Chaṭṭha Saṅgāyana edition, with the aṭṭhakathā and ṭīkā]",
+   "where": "Igatpuri: Vipassana Research Institute",
+   "url": "",
+   "lib": "",
+   "found": "https://tipitaka.org/",
+   "label": "Online"
+  }
+ ]
+}

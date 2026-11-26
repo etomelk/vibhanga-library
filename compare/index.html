@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" class="cmp">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Side by side · Vibhaṅga Library</title>
+<meta name="description" content="Two books of the Vibhaṅga Library side by side, kept at the same section as you read.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+Mono:wght@400;500&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/reader.css">
+<link rel="stylesheet" href="../shared/compare.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="iconbtn libbtn" href="../" title="Vibhaṅga Library: all books" aria-label="Vibhaṅga Library"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2 2.5h3.5v11H2zM6.5 2.5H10v11H6.5zM10.6 3.2l3.2-.7 2.3 10.7-3.2.7z"/></svg><span>Library</span></a>
+  <a class="brand" href="../">Vibhaṅga Library<small>Side by side</small></a>
+  <div class="ctools">
+    <label class="synctog" title="Keep the two books at the same section as you scroll"><input type="checkbox" id="sync" checked><span>Keep in step</span></label>
+    <button class="iconbtn" id="swap" title="Swap the two sides" aria-label="Swap the two sides"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h11M10 2l3 3-3 3M14 11H3M6 8l-3 3 3 3"/></svg></button>
+  </div>
+  <button class="iconbtn" id="themebtn" aria-label="Toggle theme" title="Toggle light / dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div>
+<nav class="ptabs" id="ptabs" aria-label="Which book to show"></nav>
+<div class="panes" id="panes">
+  <section class="pane" id="paneA" aria-label="Left book"></section>
+  <section class="pane" id="paneB" aria-label="Right book"></section>
+</div>
+<script>window.LIB={"books": [{"slug": "pali", "cite": "CS", "title": "Vibhaṅgapāḷi", "partner": "sammoha"}, {"slug": "sammoha", "cite": "Sammohavinodanī", "title": "Sammohavinodanī", "partner": "pali"}, {"slug": "mulatika", "cite": "Mūlaṭīkā", "title": "Vibhaṅga-mūlaṭīkā", "partner": "sammoha"}, {"slug": "anutika", "cite": "Anuṭīkā", "title": "Vibhaṅga-anuṭīkā", "partner": "mulatika"}]};</script>
+<script src="../shared/words.js"></script>
+<script src="../shared/compare.js"></script>
+</body>
+</html>
