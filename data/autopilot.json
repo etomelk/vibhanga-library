@@ -39,16 +39,54 @@
    "what": "Khuddakavatthu-, Dhammahadayavibhaṅga"
   },
   {
+   "item": "dispeller",
+   "file": "dispeller-1.pdf",
+   "from_page": 1,
+   "to_page": 130,
+   "what": "set up the parser; Part I to PDF p. 130"
+  },
+  {
+   "item": "dispeller",
+   "file": "dispeller-1.pdf",
+   "from_page": 131,
+   "to_page": 260,
+   "what": "Part I, PDF pp. 131–260"
+  },
+  {
+   "item": "dispeller",
+   "file": "dispeller-1.pdf",
+   "from_page": 261,
+   "to_page": 376,
+   "what": "Part I, PDF pp. 261–376"
+  },
+  {
+   "item": "dispeller",
+   "file": "dispeller-2.pdf",
+   "from_page": 1,
+   "to_page": 130,
+   "what": "Part II, PDF pp. 1–130"
+  },
+  {
+   "item": "dispeller",
+   "file": "dispeller-2.pdf",
+   "from_page": 131,
+   "to_page": 260,
+   "what": "Part II, PDF pp. 131–260"
+  },
+  {
+   "item": "dispeller",
+   "file": "dispeller-2.pdf",
+   "from_page": 261,
+   "to_page": 391,
+   "what": "Part II, PDF pp. 261–391, then the links from the Sammohavinodanī"
+  },
+  {
    "item": "front",
    "what": "front matter and Introduction"
   },
   {
    "item": "index",
    "what": "index of terms, bibliography; then done"
-  },
-  {
-   "item": "translate",
-   "book": "sammoha"
   },
   {
    "item": "translate",
@@ -60,7 +98,7 @@
   }
  ],
  "next": {
-  "book": "sammoha",
+  "book": "mulatika",
   "part": 0,
   "block": 0
  }

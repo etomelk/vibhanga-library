@@ -34,7 +34,30 @@ Take the first item of `queue` in `data/autopilot.json`:
   `glossary` (its entries link to pages; see how the Dhammasaṅgaṇī Library's `scripts/rhysdavids/parse.py`
   does Rhys Davids' index), and the Bibliography (697–699) becomes a last part.
 
-- **`translate` items** (`book`: `sammoha`, then `mulatika`, then `anutika`): see "Translating" below.
+- **`translate` items** (`book`: `mulatika`, then `anutika`): see "Translating" below.
+
+- **`dispeller` items** (`file`, `from_page`, `to_page`): Ñāṇamoli's *The Dispeller of Delusion*, PTS
+  1987–91, a new book `dispeller` on the English shelf after Thiṭṭila. The PDFs are `sources/dispeller-1.pdf`
+  (Part I, 376 pages) and `sources/dispeller-2.pdf` (Part II, 391 pages). They are scans with an OCR text
+  layer (`pdftotext`), so it does not need transcribing, but cleaning. The first item writes
+  `scripts/dispeller/parse.py`; each item parses its pages and adds them to `data/dispeller.json`, and
+  the earlier pages must come out unchanged.
+  - Ñāṇamoli numbers his own paragraphs ("1617. ", 1 to about 2,500 through both parts). They are the
+    book's anchors (`pnum`, with `"sign": ""`, so they do not pass for Vibhaṅga §s, and no `pts_map`).
+    His "[372]" is a page of the PTS Sammohavinodanī: make it ⟨pts:372⟩, and give the book
+    `"pts_pages": "sammoha"`, as the Dhammasaṅgaṇī Library does for the Expositor and the Aṭṭhasālinī.
+    "<246.4>" is a page and line of the PTS Vibhaṅga: keep it as text.
+  - Clean the OCR: ä ï ü → ā ī ū, and the usual misreadings of ñ ("fi", "fl"), checked against the
+    word in the Pāli. The dots under ṭ ḍ ṇ ḷ ṃ are mostly lost: restore them only where the word is
+    certain (a word list from `data/sammoha.json` and `data/pali.json`). Never change the English. Say
+    in the book's `source` that the text is from the OCR, cleaned, not proofread.
+  - Drop the running heads and page numbers. Footnote numbers ("attack,8") become notes where the note
+    text can be found (the footnotes at the page foot, or the notes at the end of a part); otherwise
+    drop the stray number and log it.
+  - Parts: one per chapter of Ñāṇamoli (the 18 vibhaṅgas), titled as he titles them.
+  - The last item also gives `data/library.json`'s `sammoha` entry `"page_back": {"P": "dispeller"}`, so
+    the Pāli's PTS pages link to the English. The link's title in `scripts/build.py` (`pg_mark`) names the
+    Expositor: make it name the book it links to.
 
 Update the book's `note` in `data/library.json` so that it says how far the text goes.
 

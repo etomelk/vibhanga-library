@@ -20,10 +20,9 @@ the page anchors and the side-by-side view line up.
 
 - **Page markers** `⟨pg:12⟩` (the Myanmar edition's pages) are copied into the English at the
   same place in the sentence, as near as the English allows. The build checks they are all there.
-- **Lemmas.** The words being explained are kept in Pāli. In the Sammohavinodanī they are the words
-  of the Vibhaṅga: give them Thiṭṭila's English for the same § (`data/thittila.json`) where it fits.
-  In the Mūlaṭīkā they are the words of the Sammohavinodanī: use the English already given to them
-  in `sammoha/`. In the Anuṭīkā they are the words of the Mūlaṭīkā: use `mulatika/`. They are kept, in bold, as in the Pāli text, with the English in parentheses and quotes after
+- **Lemmas.** The words being explained are kept in Pāli. In the Mūlaṭīkā they are the words of the Sammohavinodanī: use
+  Ñāṇamoli's English for them (`data/dispeller.json`, at the same PTS page of the Sammohavinodanī) where
+  it fits, and Thiṭṭila's (`data/thittila.json`, same §) for words of the Vibhaṅga itself. In the Anuṭīkā they are the words of the Mūlaṭīkā: use `mulatika/`. They are kept, in bold, as in the Pāli text, with the English in parentheses and quotes after
   them: `**karuṇā viyā** (“like compassion”)`. A lemma quoted with ‘‘…’’ in the Pāli keeps
   curly quotes: `**“dayāya tāya”** (“by that pity”)`.
 - **Pāli words** discussed as words (etymologies, grammar) are in italics: *kirati*, *dayā*.

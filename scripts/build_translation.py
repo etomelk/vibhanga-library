@@ -30,7 +30,7 @@ import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BOOKS = {'sammoha-en': 'sammoha', 'mulatika-en': 'mulatika', 'anutika-en': 'anutika'}
+BOOKS = {'mulatika-en': 'mulatika', 'anutika-en': 'anutika'}
 
 
 def read_part(path):

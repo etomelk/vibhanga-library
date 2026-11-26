@@ -10,10 +10,10 @@ e = lambda s: html.escape(s, quote=False)
 
 # ---- books, on five shelves: from the study notes to the sub-commentaries
 SHELVES = [
-    ('The Vibhaṅga in English', 'U Thiṭṭila’s translation of the Sixth Council text.', ('thittila',)),
+    ('The Vibhaṅga in English', 'U Thiṭṭila’s translation of the text, and Ñāṇamoli’s of its commentary.', ('thittila', 'dispeller')),
     ('The Vibhaṅga in Pāli', 'The text itself, in the Sixth Council edition.', ('pali',)),
     ('The commentaries', 'Buddhaghosa’s Sammohavinodanī, then the sub-commentary and the sub-sub-commentary on it.', ('sammoha', 'mulatika', 'anutika')),
-    ('Draft translations', 'The commentaries in English, made with Claude for this library and read beside the Pāli: drafts to be checked, not published translations.', ('sammoha-en', 'mulatika-en', 'anutika-en')),
+    ('Draft translations', 'The two sub-commentaries in English, made with Claude for this library and read beside the Pāli: drafts to be checked, not published translations.', ('mulatika-en', 'anutika-en')),
 ]
 _shelf = {s: k for k, (_, _, ss) in enumerate(SHELVES) for s in ss}
 assert {b['slug'] for b in lib['books']} <= set(_shelf), 'every book needs a shelf'   # a shelf may list a book not begun yet
