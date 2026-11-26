@@ -3,6 +3,58 @@
   "tagline": "The second book of the Abhidhamma Piṭaka — the Book of Analysis — its text and commentaries, one section per page, linked paragraph by paragraph.",
   "books": [
     {
+      "slug": "thittila",
+      "title": "The Book of Analysis (Vibhaṅga)",
+      "short": "The Book of Analysis",
+      "author": "U Thiṭṭila",
+      "cite": "Thiṭṭila",
+      "level": "Translation",
+      "edition": "PTS Translation Series 39, 1969; electronic edition 2010 (CC BY-NC 3.0)",
+      "by": "Translated from the Pāḷi of the Burmese Chaṭṭhasaṅgīti edition by Paṭhamakyaw Ashin Thiṭṭila (Seṭṭhila), Aggamahāpaṇḍita · Pali Text Society",
+      "blurb": "The Vibhaṅga in English, translated from the same Sixth Council text that is on the Pāli shelf, paragraph by paragraph.",
+      "note": "The translation, one part per vibhaṅga as in the Pāli reader (this first version holds the Analysis of the Aggregates, §1–153; the rest is being added). Each § is the Sixth Council paragraph and links to the same paragraph in the Pāli and the commentaries. The margin gives the pages of the printed translation and, marked P, of the PTS Pāli edition (Rhys Davids 1904), which Thiṭṭila prints in square brackets. The small lines under a paragraph are his notes (P¹ = see para. …).",
+      "brand_sub": "Thiṭṭila · 1969",
+      "toc_foot": "The Book of Analysis ({{NPARA}} numbered paragraphs, the Sixth Council numbers).",
+      "source": "Source: U Thiṭṭila, <em>The Book of Analysis (Vibhaṅga)</em>, Pali Text Society Translation Series 39 (1969; electronic edition, Bristol 2010), published by the Pali Text Society under the Creative Commons Attribution Non-Commercial 3.0 licence. The text is taken from the PDF as it is; the line-end hyphens are resolved, and the pages are kept as anchors.",
+      "desc": "U Thiṭṭila’s Book of Analysis, the Vibhaṅga in English, linked paragraph by paragraph to the Pāli and its commentaries.",
+      "howto": [
+        [
+          "Find anything",
+          "Type in Search (or press <kbd>/</kbd>)."
+        ],
+        [
+          "Go to a paragraph",
+          "Type a number in <b>§</b> (1–1044): the Sixth Council numbers, as in the Pāli."
+        ],
+        [
+          "Between the books",
+          "The chips beside a § open the same paragraph in the Pāli and the commentaries."
+        ]
+      ],
+      "goto_aria": "Go to paragraph",
+      "pts_label": "English",
+      "unit": "Part",
+      "cid": "ch",
+      "sign": "§",
+      "margin_sign": "",
+      "xrefs": false,
+      "footnotes": true,
+      "split": true,
+      "inline_markup": true,
+      "goto": "p",
+      "goto_label": "§",
+      "goto_max": 1044,
+      "pts_map": "vibhanga-pts.json",
+      "anchor": "^(p\\d+|pg\\w+)$",
+      "drawer_btn": "Notes",
+      "drawer_title": "Pāli terms",
+      "drawer_hint": "The text has no index of its own.",
+      "page_books": {
+        "P": "PTS"
+      },
+      "page_letter_visible": true
+    },
+    {
       "slug": "pali",
       "title": "Vibhaṅgapāḷi",
       "short": "Vibhaṅga in the Sixth Council Pāḷi",

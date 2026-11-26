@@ -30,7 +30,7 @@ lib = json.load(open(os.path.join(ROOT, 'data', 'library.json'), encoding='utf-8
 # the shelves and their order come from the home page
 _spec = open(os.path.join(ROOT, 'scripts', 'build_home.py'), encoding='utf-8').read()
 SHELVES = eval(re.search(r'^SHELVES = (\[.*?^\])', _spec, re.S | re.M).group(1))
-SHELF_SHORT = ['Pāli', 'Commentaries']
+SHELF_SHORT = ['English', 'Pāli', 'Commentaries']
 
 CORE = {
     # the mind and its factors

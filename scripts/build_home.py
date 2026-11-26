@@ -10,6 +10,7 @@ e = lambda s: html.escape(s, quote=False)
 
 # ---- books, on five shelves: from the study notes to the sub-commentaries
 SHELVES = [
+    ('The Vibhaṅga in English', 'U Thiṭṭila’s translation of the Sixth Council text.', ('thittila',)),
     ('The Vibhaṅga in Pāli', 'The text itself, in the Sixth Council edition.', ('pali',)),
     ('The commentaries', 'Buddhaghosa’s Sammohavinodanī, then the sub-commentary and the sub-sub-commentary on it.', ('sammoha', 'mulatika', 'anutika')),
 ]

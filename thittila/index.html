@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-book="thittila" data-anchor="^(p\d+|pg\w+)$" data-sign="§" data-goto="p" data-goto-roman="" data-split="1" style="--sign:''">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Book of Analysis · U Thiṭṭila</title>
+<meta name="description" content="U Thiṭṭila’s Book of Analysis, the Vibhaṅga in English, linked paragraph by paragraph to the Pāli and its commentaries.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+Mono:wght@400;500&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../shared/reader.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="progress" id="progress" aria-hidden="true"><span></span></div>
+  <button class="iconbtn menubtn" id="menubtn" aria-label="Contents" aria-expanded="false">☰</button>
+  <a class="iconbtn libbtn" href="../" title="Vibhaṅga Library: all books" aria-label="Vibhaṅga Library"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2 2.5h3.5v11H2zM6.5 2.5H10v11H6.5zM10.6 3.2l3.2-.7 2.3 10.7-3.2.7z"/></svg><span>Library</span></a>
+  <a class="brand" href="#home" title="Contents">The Book of Analysis<small>Thiṭṭila · 1969</small></a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search" title="Search the whole book; diacritics are optional" autocomplete="off" aria-label="Search">
+    <span class="kbd">/</span>
+  </div>
+  <div class="gotobox"><label for="goto">§</label><input id="goto" type="number" min="1" max="1044" placeholder="No." aria-label="Go to paragraph"></div>
+  <button class="iconbtn" id="glossbtn" aria-pressed="false" aria-controls="gloss">Notes</button>
+  <button class="iconbtn" id="themebtn" aria-label="Toggle theme" title="Toggle light / dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div>
+
+<div class="frame">
+  <nav class="toc" id="toc" aria-label="Contents">
+    <a class="libline" href="../">← Vibhaṅga Library</a>
+    <ul><li class="chap"><button class="chbtn" data-ch="ch1" aria-expanded="false"><span class="chlabel">Analysis of the Aggregates</span><span class="chtitle">Analysis According to the Discourses (§1–31)</span><span class="chrng">§1–31</span></button><ul class="secs" hidden><li><a href="#ch1-s0">Analysis of the Aggregates</a></li><li><a href="#ch1-s1">Analysis According to the Discourses</a></li><li><a href="#ch1-s3">The Aggregate of Material Quality</a></li><li><a href="#ch1-s20">The Aggregate of Feeling</a></li><li><a href="#ch1-s31">The Aggregate of Perception</a></li><li><a href="#ch1-s44">The Aggregate of Mental Concomitants</a></li><li><a href="#ch1-s55">The Aggregate of Consciousness</a></li></ul></li><li class="chap"><button class="chbtn" data-ch="ch2" aria-expanded="false"><span class="chlabel">Analysis of the Aggregates</span><span class="chtitle">Analysis According to Abhidhamma (§32–149)</span><span class="chrng">§32–149</span></button><ul class="secs" hidden><li><a href="#ch2-s0">(Here Ends) Analysis According to the Discourses</a></li><li><a href="#ch2-s1">Analysis According to Abhidhamma</a></li><li><a href="#ch2-s3">The Aggregate of Material Quality</a></li><li><a href="#ch2-s19">This is Called the Aggregate of Material Quality  2. The Aggregate of Feeling</a></li><li><a href="#ch2-s43">(Here Ends the Section) Based on the Couplets</a></li><li><a href="#ch2-s66">(Here Ends the Section) Based on the Triplets</a></li><li><a href="#ch2-s143">(Here Ends the Section of) Reciprocal Increase</a></li><li><a href="#ch2-s157">This is Called the Aggregate of Feeling 3. The Aggregate of Perception</a></li><li><a href="#ch2-s188">(Here Ends the Section) Based on the Couplets</a></li><li><a href="#ch2-s207">(Here Ends the Section) Based on the Triplets</a></li><li><a href="#ch2-s292">(Here Ends the Section of) Reciprocal Increase</a></li><li><a href="#ch2-s306">This is Called the Aggregate of Perception 4. The Aggregate of Mental Concomitants</a></li><li><a href="#ch2-s338">(Here Ends the Section) Based on the Couplets.</a></li><li><a href="#ch2-s355">(Here Ends the Section) Based on the Triplets.</a></li><li><a href="#ch2-s440">(Here Ends the Section of) Reciprocal Increase.</a></li><li><a href="#ch2-s454">This is Called the Aggregate of Mental Concomitants 5. The Aggregate of Consciousness</a></li><li><a href="#ch2-s481">(Here Ends the Section) Based on the Couplets</a></li><li><a href="#ch2-s500">(Here Ends the Section) Based on the Triplets</a></li><li><a href="#ch2-s585">(Here Ends the Section of) Reciprocal Increase</a></li></ul></li><li class="chap"><button class="chbtn" data-ch="ch3" aria-expanded="false"><span class="chlabel">Analysis of the Aggregates</span><span class="chtitle">Interrogation (§150–153)</span><span class="chrng">§150–153</span></button><ul class="secs" hidden><li><a href="#ch3-s0">This is Called the Aggregate of Consciousness (Here Ends the Section) Analysis According to Abhidhamma</a></li><li><a href="#ch3-s1">Interrogation</a></li><li><a href="#ch3-s5">The Triplets</a></li><li><a href="#ch3-s10">The Couplets</a></li><li><a href="#ch3-s27">(Here Ends the Section) Interrogation</a></li><li><a href="#ch3-s28">Analysis of the Aggregates is Ended</a></li></ul></li></ul>
+    <div class="toc-foot">The Book of Analysis (153 numbered paragraphs, the Sixth Council numbers).</div>
+  </nav>
+  <main>
+    <div class="col">
+      <div id="home" class="homeview">
+        <header class="bookhead">
+          <a class="crumb" href="../">Vibhaṅga Library</a>
+          <span class="eyebrow">PTS Translation Series 39, 1969; electronic edition 2010 (CC BY-NC 3.0)</span>
+          <h1>The Book of Analysis (Vibhaṅga)</h1>
+          <p class="by">Translated from the Pāḷi of the Burmese Chaṭṭhasaṅgīti edition by Paṭhamakyaw Ashin Thiṭṭila (Seṭṭhila), Aggamahāpaṇḍita · Pali Text Society</p>
+          <p class="note">The translation, one part per vibhaṅga as in the Pāli reader (this first version holds the Analysis of the Aggregates, §1–153; the rest is being added). Each § is the Sixth Council paragraph and links to the same paragraph in the Pāli and the commentaries. The margin gives the pages of the printed translation and, marked P, of the PTS Pāli edition (Rhys Davids 1904), which Thiṭṭila prints in square brackets. The small lines under a paragraph are his notes (P¹ = see para. …).</p>
+        </header>
+        <a class="resume" id="resume" href="#" hidden><span class="rlabel">Continue reading</span><span class="rwhere" id="rwhere"></span><span class="rgo">→</span></a>
+        <div class="howto">
+          <div><b>Find anything</b><span>Type in Search (or press <kbd>/</kbd>).</span></div><div><b>Go to a paragraph</b><span>Type a number in <b>§</b> (1–1044): the Sixth Council numbers, as in the Pāli.</span></div><div><b>Between the books</b><span>The chips beside a § open the same paragraph in the Pāli and the commentaries.</span></div>
+        </div>
+        <h2 class="cardshead">Contents</h2>
+        <div class="cards"><a class="card" href="#ch1"><span class="cnum">1</span><span class="ctitle">Analysis According to the Discourses (§1–31)</span><span class="crng">§1–31</span><span class="cpeek">Analysis of the Aggregates, Analysis According to the Discourses, The Aggregate of Material Quality, The Aggregate of Feeling …</span></a><a class="card" href="#ch2"><span class="cnum">2</span><span class="ctitle">Analysis According to Abhidhamma (§32–149)</span><span class="crng">§32–149</span><span class="cpeek">(Here Ends) Analysis According to the Discourses, Analysis According to Abhidhamma, The Aggregate of Material Quality, This is Called the Aggregate of Material Quality  2. The Aggregate of Feeling …</span></a><a class="card" href="#ch3"><span class="cnum">3</span><span class="ctitle">Interrogation (§150–153)</span><span class="crng">§150–153</span><span class="cpeek">This is Called the Aggregate of Consciousness (Here Ends the Section) Analysis According to Abhidhamma, Interrogation, The Triplets, The Couplets …</span></a></div>
+        <footer class="source">
+          <p class="note">Source: U Thiṭṭila, <em>The Book of Analysis (Vibhaṅga)</em>, Pali Text Society Translation Series 39 (1969; electronic edition, Bristol 2010), published by the Pali Text Society under the Creative Commons Attribution Non-Commercial 3.0 licence. The text is taken from the PDF as it is; the line-end hyphens are resolved, and the pages are kept as anchors.</p>
+        </footer>
+      </div>
+      <section class="chapter" id="ch1" data-label="Analysis of the Aggregates" data-title="Analysis According to the Discourses (§1–31)" data-src="c/ch1.html"></section><section class="chapter" id="ch2" data-label="Analysis of the Aggregates" data-title="Analysis According to Abhidhamma (§32–149)" data-src="c/ch2.html"></section><section class="chapter" id="ch3" data-label="Analysis of the Aggregates" data-title="Interrogation (§150–153)" data-src="c/ch3.html"></section>
+      <footer class="rightsfoot"><p class="rightsline">Offered freely as <i>Dhamma-dāna</i>, for study. All rights in these works belong to their authors, translators and publishers; this library claims none and cannot grant permission to reproduce them. <a href="../#rights">A note on rights</a></p></footer>
+    </div>
+  </main>
+</div>
+
+<button class="totop" id="totop" aria-label="Back to top" hidden>↑</button>
+
+<aside class="gloss" id="gloss" aria-label="Pāli terms" aria-hidden="true">
+  <h2>Pāli terms</h2>
+  <p class="ghint">The text has no index of its own.</p>
+  <input id="gq" type="search" placeholder="Filter" aria-label="Filter Pāli terms">
+  <dl id="gl"></dl>
+</aside>
+
+<script src="../shared/reader.js"></script>
+</body>
+</html>

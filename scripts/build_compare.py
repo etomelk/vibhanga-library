@@ -36,7 +36,7 @@ SLUGS = [b['slug'] for b in books]
 HUBS = ['pali', 'sammoha']     # the books a way may go through, in this order
 
 # the book each one opens beside, unless the reader picks another
-PARTNER = {'pali': 'sammoha', 'sammoha': 'pali', 'mulatika': 'sammoha', 'anutika': 'mulatika'}
+PARTNER = {'thittila': 'pali', 'pali': 'thittila', 'sammoha': 'pali', 'mulatika': 'sammoha', 'anutika': 'mulatika'}
 # a translation made paragraph by paragraph: every id of one is the same place in the other
 PARALLEL = {}
 
