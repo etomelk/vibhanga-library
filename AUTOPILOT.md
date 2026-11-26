@@ -135,3 +135,9 @@ study-guide repos of the other libraries (etomelk/study-guide-dammasangani). So 
   which term. Do not flatten those paragraphs further than the text does; note in the log any table
   or numbered list that the parser had to join into a paragraph.
 - Nothing extra for the site: these are data files only. They add little to each run.
+- **An atlas later, like the Dhammasaṅgaṇī Atlas** (dhammasangani-atlas.netlify.app), which sorts the
+  realities by the triplets and couplets of the mātikā. The Vibhaṅga's Pañhāpucchaka sections give
+  that sorting for the aggregates, bases, elements, truths and faculties. Where it is cheap during a `text`
+  run, tag each Interrogation paragraph with its mātikā item in the library's labels (`t1`–`t22`,
+  `d1`–`d100`, `s1`–`s42`, as in the Dhammasaṅgaṇī Library; `tag` on the block). The answers themselves
+  will be extracted later, from the tagged paragraphs.
