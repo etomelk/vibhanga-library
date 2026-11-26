@@ -1,0 +1,50 @@
+{
+ "status": "running",
+ "lock": "",
+ "queue": [
+  {
+   "item": "text",
+   "to_page": 278,
+   "to_para": 224,
+   "what": "Āyatana-, Dhātu-, Sacca-, Indriyavibhaṅga"
+  },
+  {
+   "item": "text",
+   "to_page": 352,
+   "to_para": 354,
+   "what": "Paṭiccasamuppādavibhaṅga"
+  },
+  {
+   "item": "text",
+   "to_page": 424,
+   "to_para": 507,
+   "what": "Satipaṭṭhāna- to Maggaṅgavibhaṅga"
+  },
+  {
+   "item": "text",
+   "to_page": 494,
+   "to_para": 717,
+   "what": "Jhāna-, Appamaññā-, Sikkhāpadavibhaṅga"
+  },
+  {
+   "item": "text",
+   "to_page": 564,
+   "to_para": 831,
+   "what": "Paṭisambhidā-, Ñāṇavibhaṅga"
+  },
+  {
+   "item": "text",
+   "to_page": 678,
+   "to_para": 1044,
+   "what": "Khuddakavatthu-, Dhammahadayavibhaṅga"
+  },
+  {
+   "item": "front",
+   "what": "front matter and Introduction"
+  },
+  {
+   "item": "index",
+   "what": "index of terms, bibliography; then done"
+  }
+ ]
+}

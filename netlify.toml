@@ -1,3 +1,10 @@
 [build]
   publish = "."
   command = ""
+
+# the source PDFs used to build the books are not part of the site
+[[redirects]]
+  from = "/sources/*"
+  to = "/404.html"
+  status = 404
+  force = true
